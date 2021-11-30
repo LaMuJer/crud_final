@@ -18,6 +18,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{{ route('category.create') }}">Category</a></li>
+                        <li><a class="dropdown-item" href="{{ route('photo.create') }}">Photo</a></li>
                         <li><a class="dropdown-item" href="{{ route('article.index') }}">Article Lists</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="{{ route('article.create') }}">Create Article</a></li>
